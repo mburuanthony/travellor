@@ -1,0 +1,31 @@
+@import "./colors";
+@import "./mixins";
+
+#my-bookings {
+  .booking {
+    @include flexMixin(row, no-wrap, flex-start, flex-start);
+    gap: 0.5rem;
+
+    img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 0.5rem;
+    }
+
+    ._booking-recent {
+      @include flexMixin(column, no-wrap, flex-start, flex-start);
+      gap: 1rem;
+      width: 100%;
+      padding: 0.25rem;
+
+      span,
+      p {
+        font-weight: 600;
+      }
+
+      .travel_destinations {
+        @include flexMixin(row, no-wrap, flex-start, flex-start);
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+@import "./colors";
+@import "./mixins";
+
+#vehicles {
+  .content-wrapper {
+    @include tablet-upwards {
+      @include flexMixin(row, wrap, flex-start, flex-start);
+      gap: 1rem;
+    }
+
+    .bus {
+      margin-bottom: 1rem;
+
+      @include tablet-upwards {
+        width: 22rem;
+        padding: 0.5rem;
+        border-color: none;
+        border-radius: 0.5rem;
+        box-shadow: $boxShadow;
+        background-color: $white;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+
+      .bus_description {
+        .text {
+          text-align: justify;
+        }
+
+        .seats_rating {
+          @include flexMixin(row, no-wrap, center, space-between);
+          width: 100%;
+          margin-top: 0.5rem;
+          border-top: 1px solid $bluee;
+
+          .seats,
+          .rating {
+            @include flexMixin(row, no-wrap, center, space-between);
+            border-top-color: $bluee;
+            margin-top: 0.5rem;
+            font-family: "Raleway", sans-serif;
+            font-weight: 600;
+
+            .icon {
+              margin-right: 0.25rem;
+              color: $darkBlue;
+            }
+          }
+
+          .rating {
+            .icon {
+              color: $bluee;
+            }
+          }
+        }
+      }
+    }
+  }
+}

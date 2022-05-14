@@ -1,0 +1,570 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Raleway");
+@media only screen and (min-width: 768px) {
+  #vehicles .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 1rem;
+  }
+}
+
+#vehicles .content-wrapper .bus {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #vehicles .content-wrapper .bus {
+    width: 22rem;
+    padding: 0.5rem;
+    border-color: none;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 6px 24px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 6px 24px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+  }
+}
+
+#vehicles .content-wrapper .bus img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#vehicles .content-wrapper .bus .bus_description .text {
+  text-align: justify;
+}
+
+#vehicles .content-wrapper .bus .bus_description .seats_rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin-top: 0.5rem;
+  border-top: 1px solid #09368b;
+}
+
+#vehicles .content-wrapper .bus .bus_description .seats_rating .seats,
+#vehicles .content-wrapper .bus .bus_description .seats_rating .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-top-color: #09368b;
+  margin-top: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+
+#vehicles .content-wrapper .bus .bus_description .seats_rating .seats .icon,
+#vehicles .content-wrapper .bus .bus_description .seats_rating .rating .icon {
+  margin-right: 0.25rem;
+  color: #014a7d;
+}
+
+#vehicles .content-wrapper .bus .bus_description .seats_rating .rating .icon {
+  color: #09368b;
+}
+
+#drivers,
+#touts {
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) {
+  #drivers .content-wrapper,
+  #touts .content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    gap: 1rem;
+  }
+}
+
+#drivers .content-wrapper .driver,
+#drivers .content-wrapper .tout,
+#touts .content-wrapper .driver,
+#touts .content-wrapper .tout {
+  background-color: transparent;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  #drivers .content-wrapper .driver,
+  #drivers .content-wrapper .tout,
+  #touts .content-wrapper .driver,
+  #touts .content-wrapper .tout {
+    width: 22rem;
+    padding: 0.5rem;
+    border-color: none;
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 6px 24px rgba(0, 0, 0, 0.05);
+            box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.08), 0px 6px 24px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+  }
+}
+
+#drivers .content-wrapper .driver img,
+#drivers .content-wrapper .tout img,
+#touts .content-wrapper .driver img,
+#touts .content-wrapper .tout img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+#drivers .content-wrapper .driver .driver_name,
+#drivers .content-wrapper .driver .tout_name,
+#drivers .content-wrapper .tout .driver_name,
+#drivers .content-wrapper .tout .tout_name,
+#touts .content-wrapper .driver .driver_name,
+#touts .content-wrapper .driver .tout_name,
+#touts .content-wrapper .tout .driver_name,
+#touts .content-wrapper .tout .tout_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: 600;
+}
+
+#drivers .content-wrapper .driver .buses,
+#drivers .content-wrapper .tout .buses,
+#touts .content-wrapper .driver .buses,
+#touts .content-wrapper .tout .buses {
+  margin-top: 0.5rem;
+}
+
+#drivers .content-wrapper .driver .buses img,
+#drivers .content-wrapper .tout .buses img,
+#touts .content-wrapper .driver .buses img,
+#touts .content-wrapper .tout .buses img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
+#drivers .content-wrapper .driver .buses .end-image,
+#drivers .content-wrapper .tout .buses .end-image,
+#touts .content-wrapper .driver .buses .end-image,
+#touts .content-wrapper .tout .buses .end-image {
+  margin-left: -1rem;
+  z-index: 2000;
+}
+
+#book {
+  background-color: transparent;
+}
+
+#book .book_button,
+#book .confirm_button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem auto 1rem auto;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  #book .book_button,
+  #book .confirm_button {
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  #book .book_button:hover,
+  #book .confirm_button:hover {
+    background-color: #09368b;
+    color: #ffffff;
+  }
+}
+
+#book .book_button .icon,
+#book .confirm_button .icon {
+  margin-left: 0.5rem;
+  margin-right: unset;
+}
+
+@media only screen and (min-width: 768px) {
+  #book .book_button .icon,
+  #book .confirm_button .icon {
+    -webkit-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+  }
+  #book .book_button .icon:hover,
+  #book .confirm_button .icon:hover {
+    color: #ffffff;
+  }
+}
+
+#book .booking_modal {
+  display: none;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -20%);
+          transform: translate(-50%, -20%);
+  width: 22rem;
+  height: 27rem;
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 30px 60px -30px rgba(0, 0, 0, 0.3), 0px 50px 100px -20px rgba(50, 50, 93, 0.25), inset 0px 1px 1px rgba(255, 255, 255, 0.1);
+          box-shadow: 0px 30px 60px -30px rgba(0, 0, 0, 0.3), 0px 50px 100px -20px rgba(50, 50, 93, 0.25), inset 0px 1px 1px rgba(255, 255, 255, 0.1);
+  z-index: 4000;
+}
+
+@media only screen and (min-width: 768px) {
+  #book .booking_modal {
+    width: 30rem;
+    padding: 1rem;
+    height: 27rem;
+  }
+}
+
+#book .booking_modal .modal_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 600;
+}
+
+#book .booking_modal .modal_title .icon {
+  cursor: pointer;
+}
+
+#book .booking_modal hr {
+  border: 1px solid #e0e0e0;
+  margin: 0.5rem 0;
+}
+
+#book .booking_modal .booking_form > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#book .booking_modal .booking_form > div .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 0.25rem;
+  font-family: "Raleway", sans-serif;
+}
+
+#book .booking_modal .booking_form > div input {
+  border: 0;
+  border-bottom: 1px solid #000000;
+  outline: none;
+  width: 100%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-size: 14px;
+}
+
+#book .booking_modal .booking_form > div input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+#book .booking_modal .booking_form > div input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
+  margin: 0;
+}
+
+#book .booking_modal .booking_form .destination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#book .booking_modal .booking_form .destination .from,
+#book .booking_modal .booking_form .destination .to {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+#book .booking_modal .booking_form .destination .from select,
+#book .booking_modal .booking_form .destination .to select {
+  padding: 0.25rem;
+  border: 0;
+  outline: none;
+  border-bottom: 1px solid #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  #book .booking_modal .booking_form .destination .from select,
+  #book .booking_modal .booking_form .destination .to select {
+    padding-right: 3rem;
+  }
+}
+
+#my-bookings .booking {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+#my-bookings .booking img {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+}
+
+#my-bookings .booking ._booking-recent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.25rem;
+}
+
+#my-bookings .booking ._booking-recent span,
+#my-bookings .booking ._booking-recent p {
+  font-weight: 600;
+}
+
+#my-bookings .booking ._booking-recent .travel_destinations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: no-wrap;
+      flex-wrap: no-wrap;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.site {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #09368b;
+}
+
+@media only screen and (min-width: 768px) {
+  .site {
+    text-align: right;
+    padding-right: 2rem;
+  }
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 1.25rem;
+  }
+}
+
+section {
+  padding: 0.5rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 0.5rem 2rem;
+  }
+}
+
+.icon {
+  color: #014a7d;
+  margin-right: 0.25rem;
+}
+/*# sourceMappingURL=main.css.map */

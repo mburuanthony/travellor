@@ -1,0 +1,55 @@
+@import "./colors";
+@import "./mixins";
+
+#drivers,
+#touts {
+  background-color: transparent;
+
+  .content-wrapper {
+    @include tablet-upwards {
+      @include flexMixin(row, wrap, flex-start, flex-start);
+      gap: 1rem;
+    }
+
+    .driver,
+    .tout {
+      background-color: transparent;
+      margin-bottom: 0.5rem;
+
+      @include tablet-upwards {
+        width: 22rem;
+        padding: 0.5rem;
+        border-color: none;
+        border-radius: 0.5rem;
+        box-shadow: $boxShadow;
+        background-color: $white;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 0.5rem;
+      }
+
+      .driver_name,
+      .tout_name {
+        @include flexMixin(row, no-wrap, flex-start, flex-start);
+        font-weight: 600;
+      }
+
+      .buses {
+        margin-top: 0.5rem;
+
+        img {
+          width: 3rem;
+          height: 3rem;
+          border-radius: 50%;
+        }
+
+        .end-image {
+          margin-left: -1rem;
+          z-index: 2000;
+        }
+      }
+    }
+  }
+}

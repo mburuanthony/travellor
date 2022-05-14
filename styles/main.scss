@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins");
+@import "./colors";
+@import "./mixins";
+@import "./vehicles";
+@import "./drivers";
+@import "./book";
+@import "./my_bookings";
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.site {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: $bluee;
+
+  @include tablet-upwards {
+    text-align: right;
+    padding-right: 2rem;
+  }
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+
+  @include tablet-upwards {
+    font-size: 1.25rem;
+  }
+}
+
+section {
+  padding: 0.5rem 1rem;
+
+  @include tablet-upwards {
+    padding: 0.5rem 2rem;
+  }
+}
+
+.icon {
+  color: $darkBlue;
+  margin-right: 0.25rem;
+}
